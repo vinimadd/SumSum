@@ -1,0 +1,301 @@
+body {
+  font-family: 'Spartan';
+}
+
+#title {
+  background-color: rgb(75, 180, 163);
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 2.5rem 2.5rem;
+}
+
+/* Nav */
+.navbar {
+  margin-bottom: 5rem;
+}
+
+.navbar-nav {
+  text-align: right;
+}
+
+.nav-link {
+  margin: 0 0.75rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Fredoka One';
+}
+
+.dropdown-item {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.dropdown-item:hover {
+  color: rgb(75, 180, 163);
+}
+
+/* Title */
+.title-grid {
+  padding: 0.75rem 1.25rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.25rem;
+  padding: 1.25rem 0;
+}
+
+h2 {
+  letter-spacing: 1px;
+  padding-bottom: 2rem;
+}
+
+.img-smartphone {
+  width: auto;
+}
+
+.img-stars {
+  width: 8%;
+  padding: 1rem 0;
+}
+
+.btn-title {
+  padding: 1.13rem 3rem;
+}
+
+.btn {
+  margin: 1.25rem 2rem 1.25rem 2rem;
+}
+
+/* Features */
+#features {
+  padding: 2.5rem 2.5rem;
+}
+
+.feature-box {
+  padding: 2.5rem 2.5rem;
+  text-align: center;
+}
+
+.img-feature {
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+/* Quiz */
+#quiz {
+  padding: 7rem 7rem;
+  text-align: center;
+}
+
+.img-quiz {
+  width: 20rem;
+  margin: 2rem 0;
+}
+
+.quiz-heading {
+  padding: 3rem 1.25rem 3rem 1.25rem;
+}
+
+.btn-quiz {
+  color: #000;
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 14rem;
+}
+
+.btn-quiz:hover {
+  color: rgb(75, 180, 163);
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 3rem 3rem;
+  font-family: 'Alegreya';
+  background-color: rgb(75, 180, 163);
+  color: #fff;
+  text-align: center;
+}
+
+.img-laurel {
+  width: 10rem;
+  margin: 3rem 2rem;
+}
+
+.testimonial-section {
+  padding: 1.5rem 4rem;
+}
+
+.img-stars-t {
+  width: 2rem;
+  padding: 2rem 0.5rem;
+}
+
+.carousel-inner {
+  padding: 3rem 0;
+}
+
+.carousel-heading, .carousel-paragraph {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(255, 255, 255, 0.65);
+  color: #000;
+}
+
+.testimonial-heading {
+  padding: 5rem 15rem 3rem;
+}
+
+.btn-testimonials {
+  width: 20rem;
+  padding: 0.75rem 0.75rem;
+  background-color: rgb(75, 180, 163);
+  color: #fff;
+  font-size: 2rem;
+}
+
+.testimonial-offer {
+  padding: 0.75rem 1rem 3rem;
+  font-size: 1.25rem
+}
+
+/* Footer */
+footer {
+  padding: 4rem 4rem;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(75, 180, 163);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-brand {
+  font-size: 2rem;
+  font-family: 'Fredoka One';
+}
+
+.footer-section {
+  padding: 3rem 2rem;
+}
+
+.footer-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.img-toaster {
+  width: 4rem;
+  padding: 1rem 0;
+}
+
+.footer-cr {
+  color: rgb(145, 145, 145);
+  font-size: 0.75rem;
+}
+
+.btn-footer {
+  background-color: #000;
+  color: #fff;
+  width: 12rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
+  #title {
+    text-align: center;
+  }
+.nav-link {
+  font-size: 0.75rem;
+}
+
+  #quiz {
+    text-align: center;
+    padding: 2rem 5rem;
+  }
+
+  @media (max-width: 812px) {
+    #title {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+
+    .img-smartphone {
+      position: static;
+      width: 100%;
+    }
+
+    #features {
+      padding: 1rem 3rem;
+    }
+
+    #quiz {
+      text-align: center;
+      padding: 0 5rem;
+    }
+
+    .quiz-section {
+      padding: 1rem 2rem;
+    }
+
+    .quiz-heading {
+      padding: 0 1rem;
+      font-size: 1rem;
+    }
+
+    .img-quiz {
+      width: 10rem;
+      padding: 0 1rem;
+    }
+
+    .btn-quiz {
+      width: 60%;
+      font-size: 0.5rem;
+    }
+
+    .img-stars-t {
+      padding: 1rem 0.25rem;
+      width: 1rem;
+    }
+
+    h5 {
+      font-size: 1rem;
+    }
+
+    .testimonial-heading {
+      padding: 1rem 1rem;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .btn-testimonials {
+      width: 80%
+    }
+
+    .testimonial-offer {
+      font-size: 1rem;
+    }
+
+    .img-laurel {
+      width: 3rem;
+    }
+  }
